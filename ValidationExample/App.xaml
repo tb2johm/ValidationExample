@@ -1,0 +1,10 @@
+﻿<Application x:Class="ValidationExample.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ValidationExample"
+             xmlns:vm="clr-namespace:ValidationExample.ViewModels"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <vm:ViewModel x:Key="ViewModel" />
+    </Application.Resources>
+</Application>
